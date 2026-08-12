@@ -1,0 +1,10 @@
+Uma determinada loja de roupas dá 18% de desconto no valor de fábrica de cada peça para ser vendida. Faça um algoritmo em Python que leia o preço de venda de uma peça e apresenta o valor final.
+
+preco_venda = float(input("Digite o preço da peça: ")) 
+
+valor_final = preco_venda * 0.82 
+
+print(f"O valor final da peça é R$ {valor_final:.2f}")
+
+Digite o preço da peça: 20
+O valor final da peça é R$ 16.40
