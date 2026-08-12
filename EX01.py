@@ -49,12 +49,10 @@ novo_valor = (valor * 120) / 100
 print("regra de 3", novo_valor)
 
 # Desconto de 12%
-novo_valor = valor * o.88
+novo_valor = valor * 0.88
 print("Desconto de 12:", novo_valor)
 
 # Regra de 3
 novo_valor = (valor * 88) / 100
 print("Desconto ( regra de 3):", novo_valor)
-
-# está dando o resultado estranho, acho que fiz algumas cosia errada
 ---------------------------------------------------
