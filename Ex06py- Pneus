@@ -6,3 +6,6 @@ carros = int(input("Digite o total de carros: "))
 valor_final = carros * 4 * 395.40 
 
 print(f"O valor final é R$ {valor_final:.2f}")
+
+Digite o total de carros: 15
+O valor final é R$ 23724.00
