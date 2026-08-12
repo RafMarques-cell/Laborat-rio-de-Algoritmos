@@ -1,0 +1,8 @@
+ma empresa deseja trocar os pneus de toda frota de carros. Sabe-se que cada pneu custa R$395,40. Com isso, leia o total de carros e apresente o valor final.
+Utilize a função input.
+
+carros = int(input("Digite o total de carros: ")) 
+
+valor_final = carros * 4 * 395.40 
+
+print(f"O valor final é R$ {valor_final:.2f}")
