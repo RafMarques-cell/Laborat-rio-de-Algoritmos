@@ -1,0 +1,9 @@
+Uma determinada loja de roupas acrescenta 30% no valor de fábrica de cada peça para ser vendida. Faça um algoritmo em Python que leia o preço de fábrica de uma peça e apresenta o valor final.
+preco_fabrica = float(input("Digite o preço de fábrica da peça: ")) 
+
+valor_final = preco_fabrica * 1.30 
+
+print(f"O valor final da peça é R$ {valor_final:.2f}")
+
+Digite o preço de fábrica da peça: R$ 3.00
+O valor final da peça é R$ 3.90
