@@ -1,0 +1,13 @@
+Crie um algoritmo para exibir o dobro e a metade de um número.
+Utilize a função input.
+
+numero = float(input("Digite um número: ")) 
+dobro = numero * 2 
+metade = numero / 2 
+
+print(f"O dobro é: {dobro}") 
+print(f"A metade é: {metade}")
+
+Digite um número: 10
+O dobro é: 20.0
+A metade é: 5.0
