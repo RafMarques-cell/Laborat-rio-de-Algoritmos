@@ -24,4 +24,22 @@ if valor > 1000:
 else:
     novo_valor = valor * 0.98
     print("Valor a vista:", novo_valor)
+-------------------------------------------------------------
+valor_comprar = float(input("Digite o valor:"))
+print("1 - A vista")
+print("2 - 2x")
+print("3 - 3x")
+opcao = int(input("Digite a opção:"))
+
+if opcao == 1:
+    print("Valor a Vista:", valor_comprar)
+elif opcao == 2:
+    parcelas = valor_comprar / 2
+    print("Valor das parcelas (2X):", parcelas)
+elif opcao == 3:
+  parcelas = valor_comprar / 3
+  print("Avalor das parcelas (3X):", parcelas)
+else:
+    print("Opção invàlida")
+-------------------------------------------------------------
 
